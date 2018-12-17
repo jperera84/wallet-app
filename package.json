@@ -20,10 +20,12 @@
     "test:regenerate_screenshots": "mocha test/integration/screenshots-baseline/regenerate.js --timeout=15000"
   },
   "dependencies": {
+    "@material/dialog": "^0.42.0",
     "@material/textfield": "^0.41.0",
     "@polymer/app-layout": "^3.0.0",
     "@polymer/lit-element": "^0.6.2",
     "@polymer/polymer": "^3.0.0",
+    "@types/material__dialog": "^0.35.0",
     "@types/material__textfield": "^0.35.0",
     "@webcomponents/webcomponentsjs": "^2.0.0",
     "pwa-helpers": "^0.9.0"
